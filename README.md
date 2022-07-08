@@ -12,12 +12,12 @@ I used this app to hone my skills within ReactJS. I was able to get more practic
 
 
 ### Technologies
-- ReactJS
-> - React Router DOM
-- Styled Components
-- Firebase 
-- Jest
-- Fuse
+> - ReactJS
+>   - React Router DOM
+> - Styled Components
+> - Firebase
+> - Jest
+> - Fuse
 
 
 
