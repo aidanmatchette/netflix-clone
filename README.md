@@ -29,8 +29,8 @@ I used this app to hone my skills within ReactJS. I was able to get more practic
   ```
   test@gmail.com
   ```
-  **Password**
 
+>**Password**
   ```
   test123
   ```
