@@ -4,17 +4,22 @@ Created a clone of Netflix's website.
 
 ## Description
 
-I used this app to hone my skills within ReactJS. I was able to get more practice and better understandings of React hooks such as (***useContext***, ***useEffect***, and custom hooks).While developing this app, I was able to get my hands on technologies that I had never previously used. These include:
+I used this app to hone my skills within ReactJS. I was able to get more practice and better understandings of React hooks such as (***useContext***, ***useEffect***, and ***custom hooks***).While developing this app, I was able to get my hands on technologies that I had never previously used. These include:
 - Firebase (Firestore)
 - Styled Components
 - Compound Components
 - Jest
 
 
-### Dependencies
+### Technologies
+- ReactJS
+> - React Router DOM
+- Styled Components
+- Firebase 
+- Jest
+- Fuse
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* This app was developed on MacOSX
+
 
 ### Viewing
 
