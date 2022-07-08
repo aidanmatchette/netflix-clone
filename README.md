@@ -8,7 +8,10 @@ I used this app to hone my skills within ReactJS. I was able to get more practic
 - Firebase (Firestore)
 - Styled Components
 - Compound Components
+- Fuse
 - Jest
+
+I learned how to implement different types of tests (i.e. E2E, Integration, and Unit Tests) along with the importance of testing. This app has 80% coverage. I took advantage of 3rd party libraries and technologies. For example, ***Fuse***. ***Fuse*** was used to provide search functionality, filtering down the data based on user input.
 
 
 ### Technologies
