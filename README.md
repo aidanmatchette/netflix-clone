@@ -26,16 +26,17 @@ I used this app to hone my skills within ReactJS. I was able to get more practic
 * Please check out the live version at [Netflix Clone](https://netflix.aidanmatchette.com/)
 
 >**Username**
->```
-  test@gmail.com
-  ```
->**Password**
->```
-  test123
-  ```
+```
+test@gmail.com
+```
+**Password**
+
+```
+test123
+```
 
 ## Help
 
 Any advise for common problems or issues.
 
-Please feel free to reach out to ==aidan.j.matchette@gmail.com==
+Please feel free to reach out to aidan.j.matchette@gmail.com
