@@ -24,8 +24,15 @@ I used this app to hone my skills within ReactJS. I was able to get more practic
 ### Viewing
 
 * Please check out the live version at [Netflix Clone](https://netflix.aidanmatchette.com/)
-* Any modifications needed to be made to files/folders
 
+**Username**
+```
+test@gmail.com
+```
+**Password**
+```
+test123
+```
 
 ## Help
 
