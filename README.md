@@ -26,14 +26,14 @@ I used this app to hone my skills within ReactJS. I was able to get more practic
 * Please check out the live version at [Netflix Clone](https://netflix.aidanmatchette.com/)
 
 >**Username**
-```
-test@gmail.com
-```
-**Password**
+  ```
+  test@gmail.com
+  ```
+  **Password**
 
-```
-test123
-```
+  ```
+  test123
+  ```
 
 ## Help
 
