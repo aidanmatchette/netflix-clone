@@ -42,5 +42,13 @@ describe('<Footer />', () => {
         <Footer.Text>Netflix United States</Footer.Text>
       </Footer>
     )
+
+    expect(getByText('Questions? Contact us.')).toBeTruthy()
+    expect(getByText('FAQ')).toBeTruthy()
+    expect(getByText('Investor Relations')).toBeTruthy()
+    expect(getByText('Ways to Watch')).toBeTruthy()
+    expect(getByText('Corporate Information')).toBeTruthy()
+    expect(getByText('Netflix Originals')).toBeTruthy()
+    expect(container.firstChild).toMatchSnapshot()
   })
 })
