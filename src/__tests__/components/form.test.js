@@ -8,7 +8,7 @@ describe('<Form />', () => {
   it('renders the <Form /> with populated data', () => {
     const { container, getByText, getByPlaceholderText } = render(
       <Form>
-        <Form.Title>Sign In</Form.Title>
+        <Form.Title>Sign In Now</Form.Title>
 
         <Form.Base>
           <Form.Input placeholder='Email address' onChange={() => {}} />

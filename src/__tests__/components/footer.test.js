@@ -13,7 +13,7 @@ describe('<Footer />', () => {
             <Footer.Link href='#'>FAQ</Footer.Link>
             <Footer.Link href='#'>Investor Relations</Footer.Link>
             <Footer.Link href='#'>Ways to Watch</Footer.Link>
-            <Footer.Link href='#'>Coporate Information</Footer.Link>
+            <Footer.Link href='#'>Corporate Information</Footer.Link>
             <Footer.Link href='#'>Netflix Originals</Footer.Link>
           </Footer.Column>
 
@@ -43,7 +43,7 @@ describe('<Footer />', () => {
       </Footer>
     )
 
-    expect(getByText('Questions? Contact us.')).toBeTruthy()
+    expect(getByText('Questions? Contact Us')).toBeTruthy()
     expect(getByText('FAQ')).toBeTruthy()
     expect(getByText('Investor Relations')).toBeTruthy()
     expect(getByText('Ways to Watch')).toBeTruthy()
