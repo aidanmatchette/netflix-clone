@@ -23,7 +23,7 @@ export default function Signup() {
   const handleSignUp = (event) => {
     event.preventDefault()
     // do firebase stuff ROUTES
-    firebase
+    return firebase
       .auth()
       .createUserWithEmailAndPassword(emailAddress, password)
       .then((result) =>
@@ -35,13 +35,13 @@ export default function Signup() {
           .then(() => {
             navigate(ROUTES.BROWSE)
           })
-          .catch((error) => {
-            setFirstName('')
-            setEmailAddress('')
-            setPassword('')
-            setError(error.message)
-          })
       )
+      .catch((error) => {
+        setFirstName('')
+        setEmailAddress('')
+        setPassword('')
+        setError(error.message)
+      })
   }
 
   return (
@@ -53,7 +53,7 @@ export default function Signup() {
 
           <Form.Base onSubmit={handleSignUp} method='POST'>
             <Form.Input
-              placeholder='First Name'
+              placeholder='First name'
               value={firstName}
               onChange={({ target }) => setFirstName(target.value)}
             />
@@ -69,7 +69,7 @@ export default function Signup() {
               value={password}
               onChange={({ target }) => setPassword(target.value)}
             />
-            <Form.Submit disabled={isInvalid} type='submit'>
+            <Form.Submit data-testid='sign-up' disabled={isInvalid} type='submit'>
               Sign Up
             </Form.Submit>
           </Form.Base>
