@@ -26,8 +26,7 @@ I learned how to implement different types of tests (i.e. E2E, Integration, and 
 
 ### Viewing
 
-* Live version will be active shortly
-* ~~Please check out the live version at [Netflix Clone](https://netflix.aidanmatchette.com/)~~
+* Please check out the live version at [Netflix Clone](https://netflix.aidanmatchette.com/)
 
 >**Username**
   ```
