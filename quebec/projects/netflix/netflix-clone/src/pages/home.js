@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Feature, OptForm } from '../components'
 import { FaqsContainer } from '../containers/faqs'
 import { JumbotronContainer } from '../containers/jumbotron'
@@ -6,6 +6,11 @@ import { FooterContainer } from '../containers/footer'
 import { HeaderContainer } from '../containers/header'
 
 export default function Home() {
+  useEffect(() => {
+    alert(
+      ' Login Information:\n\nUsername: test@gmail.com\nPassword: test123\n'
+    )
+  }, [])
   return (
     <>
       <HeaderContainer>
